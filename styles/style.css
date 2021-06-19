@@ -206,7 +206,7 @@ main .container aside{
     width: 30%;
     margin: 1rem 0 15rem 0rem;
     padding: 1rem 0;
-    background-color: #32a0c2;
+   
 }
 
 main .container article p{
@@ -221,6 +221,33 @@ main .container aside h3{
     background-color: #32a0c2;
 }
 
+.services form{
+    margin: 1rem;
+    padding: 0 1.5rem ;
+    
+    min-height: 20rem;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.services form label, .services form input, .services form textarea, .services form button{
+    display: block;
+    width: 70%;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.services form button{
+    background-color: #333;
+    color: #fff;
+    margin: 1rem 0;
+    padding: 0.7rem 1rem ;
+}
+.services form textarea{
+    resize: none;
+    height: 10rem;
+}
 
 /* Responsiveness */
 @media(max-width: 768px) {
@@ -266,7 +293,7 @@ main .container aside h3{
         width: fit-content;
         margin: 1rem ;
         padding: 1rem ;
-        background-color: #32a0c2;
+        
     }
     main .container aside h3{
         text-align: center;
